@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "691518a1517668504cdc25ff",
+      "nombre": "Cereal",
+      "precio": 30,
+      "stock": 10,
+      "__v": 0,
+      "codigo": 1,
+      "updatedAt": "2025-11-20T01:58:49.602Z"
+    },
+    {
+      "_id": "69177f1919bc15275acc5eb9",
+      "nombre": "Refresco",
+      "precio": 20,
+      "stock": 10,
+      "__v": 0,
+      "codigo": 2,
+      "updatedAt": "2025-11-15T05:27:46.482Z"
+    },
+    {
+      "_id": "69180845004dca24dcf0f0f6",
+      "nombre": "Boing",
+      "precio": 25,
+      "stock": 5,
+      "__v": 0,
+      "codigo": 3,
+      "updatedAt": "2025-11-15T05:27:46.588Z"
+    }
+  ]
+}

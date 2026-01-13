@@ -1,0 +1,176 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: oklab(33.687% -0.08416 0.05603 / 0.836);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes logogiratorio{
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.logo-react {
+    /* Posiciona la imagen absolutamente con respecto al contenedor padre */
+  position: absolute; 
+  /* La ubica en la esquina superior derecha */
+  top: 0; 
+  right: 0; 
+  /* Ajusta el tamaño de la imagen según sea necesario */
+  width: 50px; 
+  height: auto;
+  padding: 20px 20px;
+  animation-name: logogiratorio;
+  animation-duration: 5s; /* Duración de cada giro */
+  animation-iteration-count: infinite; /* Repetir la animación infinitamente */
+  animation-timing-function: linear; /* Mantiene un ritmo constante */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  flex: 1 1 30%;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.form input:hover {
+  border: 3px solid  oklab(33.687% -0.08416 0.05603 / 0.836);
+}
+
+.form button {
+  background-color: oklab(33.687% -0.08416 0.05603 / 0.836);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px;
+  font-size: 14px;
+}
+
+.form button:hover {
+   border: 3px solid whitesmoke;
+}
+
+/* Tabla */
+.table-container {
+  overflow-x: auto;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: oklab(33.687% -0.08416 0.05603 / 0.836);
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Botones dentro de la tabla */
+button.edit-btn {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 70px;
+  font-size: 12px;
+}
+
+button.save-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 70px;
+  font-size: 12px;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+  font-size: 12px;
+}
+
+button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+button.save-btn:hover {
+  background-color: #218838;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Inputs dentro de la tabla */
+.product-table input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-error { color: #b40000; margin-top: 8px; text-align: center; }
+
+
+
