@@ -1,2 +1,1 @@
-# Proyectos
-Un poco de mi experiencia como desarrollador con proyectos personales y academicos que eh realizado a lo largo de mi carrera como ingeniero en sistemas computacionales 
+Gestor de inventario de prodcutos de una tienda que nos permite guardar productyos para tener un invenatrio mas ordenado y saber que productos estan disponibles ya que tambien se guardan en una base de datos en MongoDB
